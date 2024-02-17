@@ -1,0 +1,22 @@
+name: expenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.1
+  - ipykernel
+  - pip
+  - git
+  - pytorch
+  - fastcore
+  - wikipedia-api
+  - sentence-transformers
+  - peft
+  - matplotlib
+  - pip:
+    - tiktoken
+    - transformers
+    - openai==0.28
+    - datasets
+    - datasets[audio]
+    - datasets[image]
